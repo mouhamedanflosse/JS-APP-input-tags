@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(90, 90, 170);
+  height: 100vh;
+}
+.countainer {
+  width: 400px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.countainer > p {
+  color: rgb(95, 94, 94);
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid rgb(116, 116, 116);
+  border-radius: 5px;
+}
+ul li {
+  padding: 5px;
+  background: rgb(223, 222, 222);
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin: 10px;
+}
+ul li i {
+  font-size: 15px;
+  color: rgb(124, 124, 123);
+  background-color: rgb(185, 182, 182);
+  padding: 1px 4px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+ul input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.holder p {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(95, 94, 94);
+}
+.holder button {
+  padding: 10px;
+  background-color: rgb(65, 65, 163);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
